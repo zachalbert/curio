@@ -4,8 +4,8 @@ This is a svelte + sapper powered portfolio for designers. Create structured cas
 
 This template is based on [this blog template](https://github.com/Charca/sapper-blog-template), with some added fanciness to make building a visual-focused portfolio easy:
 
-* Sass/scss support
-* 
+* Postcss
+* Tailwind
 
 
 ----

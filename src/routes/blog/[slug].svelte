@@ -47,6 +47,7 @@
 <header>
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
+  <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded">▶ Presentation Mode</button>
   <hr />
 </header>
 <div class="container">
