@@ -9,6 +9,7 @@ import config from 'sapper/config/rollup.js'
 import markdown from './src/utils/markdown.js'
 import pkg from './package.json'
 import sveltePreprocess from 'svelte-preprocess'
+import tailwind from 'tailwindcss'
 
 const mode = process.env.NODE_ENV
 const dev = mode === 'development'
@@ -22,8 +23,14 @@ const onwarn = (warning, onwarn) =>
 const preprocess = sveltePreprocess({
   postcss: {
     plugins: [
+      require('postcss-normalize')(),
       require('postcss-import')(),
+      require('postcss-simple-vars')(),
+      require('postcss-extend')(),
       require('postcss-nested')(),
+      require('postcss-mixins')(),
+      require('tailwindcss')(tailwind),
+      require('autoprefixer')(),
     ]
   }
 })

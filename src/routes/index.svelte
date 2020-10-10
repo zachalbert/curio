@@ -9,6 +9,7 @@
   }
 
   .home-copy {
+    @apply shadow-lg;
     flex: 1;
   }
 
@@ -65,7 +66,7 @@
 </svelte:head>
 
 <div class="home-container">
-  <div class="home-copy p-20 mr-16 shadow-lg">
+  <div class="home-copy p-20 mr-16">
     <h1>Welcome to your new Sapper Blog</h1>
     <p>Check out the docs on <a href="https://www.github.com/Charca/sapper-blog-template" target="_blank">GitHub</a> to get started.</p>
   </div>
