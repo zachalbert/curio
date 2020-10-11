@@ -18,7 +18,7 @@ sections:
   Process: 'The only process is there is no process.
 
 '
-  Learnings: 
+  Learnings: Things that have been learned
 
 ---
 Testing testing. Edited in forestry.
