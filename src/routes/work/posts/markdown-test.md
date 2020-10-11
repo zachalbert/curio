@@ -1,8 +1,18 @@
 ---
 title: Markdown Test Page
-date: 2019-06-16T12:51:00.000Z
----
+date: 2019-06-16T12:51:00.000+00:00
+description: ''
+sections:
+  Intro: ''
+  Results:
+    Before: ''
+    After: ''
+    Image: ''
+  Challenges: ''
+  Process: ''
+  Learnings: ''
 
+---
 A sample page with the most common elements of an article, including headings, paragraphs, lists, and images.
 Use it as a starting point for applying your own styles.
 

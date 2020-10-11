@@ -40,3 +40,5 @@ fields:
   - type: text
     name: Learnings
     label: Learnings
+pages:
+- src/routes/work/posts/markdown-test.md
