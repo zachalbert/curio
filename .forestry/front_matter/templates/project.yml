@@ -1,0 +1,42 @@
+---
+label: Project
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: text
+  name: description
+  label: description
+- type: field_group
+  name: sections
+  label: sections
+  fields:
+  - type: text
+    name: Intro
+    label: Intro
+  - type: field_group
+    name: Results
+    label: Results
+    fields:
+    - type: text
+      name: Before
+      label: Before
+    - type: text
+      name: After
+      label: After
+    - type: text
+      name: Image
+      label: Image
+  - type: text
+    name: Challenges
+    label: Challenges
+  - type: text
+    name: Process
+    label: Process
+  - type: text
+    name: Learnings
+    label: Learnings
