@@ -5,8 +5,8 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: document
-  path: "./src/routes/index.svelte"
-  label: Home (index)
+  path: src/routes
+  label: Pages
 - type: document
   path: src/routes/about.svelte
   label: About
