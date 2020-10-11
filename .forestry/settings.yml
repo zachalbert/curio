@@ -5,13 +5,11 @@ admin_path:
 webhook_url: 
 sections:
 - type: document
-  path: "./src/routes/about.svelte"
-  label: About
-  match: "**/*"
-- type: document
   path: "./src/routes/index.svelte"
   label: Home (index)
-  match: "**/*"
+- type: document
+  path: "./src/routes/about.svelte"
+  label: About
 - type: directory
   path: "./src/routes/work/posts"
   label: Work
