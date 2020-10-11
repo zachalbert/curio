@@ -42,3 +42,4 @@ fields:
     label: Learnings
 pages:
 - src/routes/work/posts/markdown-test.md
+- src/routes/work/posts/sample-project.md

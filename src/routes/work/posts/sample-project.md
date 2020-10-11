@@ -3,7 +3,7 @@ title: "⚒️ Sample Project ⚒️"
 date: 2020-09-01T08:38:00.000Z
 description: "# I put some markdown in your yaml\n"
 sections:
-  Intro: 
+  Intro: ''
   Results:
     Before: 'Blah blah blah, yadda yadda.
 
