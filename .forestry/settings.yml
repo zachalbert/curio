@@ -11,10 +11,10 @@ sections:
   path: "./src/routes/about.svelte"
   label: About
 - type: directory
-  path: "./src/routes/work/posts"
+  path: src/routes/work/posts
   label: Work
   create: all
-  match: "**/*.md"
+  match: "**/*"
 upload_dir: static
 public_path: "/static"
 front_matter_path: ''
