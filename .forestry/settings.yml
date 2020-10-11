@@ -8,7 +8,7 @@ sections:
   path: "./src/routes/index.svelte"
   label: Home (index)
 - type: document
-  path: "./src/routes/about.svelte"
+  path: src/routes/about.svelte
   label: About
 - type: directory
   path: src/routes/work/posts
