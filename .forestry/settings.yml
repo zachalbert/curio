@@ -4,12 +4,6 @@ auto_deploy: false
 admin_path: ''
 webhook_url: 
 sections:
-- type: document
-  path: src/routes
-  label: Pages
-- type: document
-  path: src/routes/about.svelte
-  label: About
 - type: directory
   path: src/routes/work/posts
   label: Work
