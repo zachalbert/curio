@@ -14,10 +14,8 @@
 </script>
 
 <script>
-  import {send, receive} from '../../crossfade.js';
-  import Bio from '../../components/Bio.svelte'
+  import {send, receive} from '../../../crossfade.js';
   export let post
-
 </script>
 
 <style>
@@ -49,7 +47,6 @@
 <header out:send="{{key: 'header'}}" in:receive="{{key: 'header'}}">
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
-  <a rel='prefetch' href='work/present/{post.slug}' class="bg-blue-500 hover:bg-blue-700 hover:text-white text-white font-bold py-3 px-6 rounded">▶ Presentation Mode</a>
   <hr />
 </header>
 <div class="container" out:send="{{key: 'body'}}" in:receive="{{key: 'body'}}">
@@ -58,5 +55,4 @@
     {@html post.html}
   </article>
   <hr />
-  <Bio />
 </div>
