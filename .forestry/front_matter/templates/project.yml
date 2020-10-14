@@ -11,35 +11,13 @@ fields:
 - type: text
   name: description
   label: description
-- type: field_group
-  name: sections
+- name: sections
+  type: blocks
   label: sections
-  fields:
-  - type: text
-    name: Intro
-    label: Intro
-  - type: field_group
-    name: Results
-    label: Results
-    fields:
-    - type: text
-      name: Before
-      label: Before
-    - type: text
-      name: After
-      label: After
-    - type: text
-      name: Image
-      label: Image
-  - type: text
-    name: Challenges
-    label: Challenges
-  - type: text
-    name: Process
-    label: Process
-  - type: text
-    name: Learnings
-    label: Learnings
+  template_types: []
+  config:
+    min: 
+    max: 
 pages:
 - src/routes/work/posts/markdown-test.md
 - src/routes/work/posts/sample-project.md
