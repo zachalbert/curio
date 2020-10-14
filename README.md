@@ -1,8 +1,8 @@
 # Help
 
+* Posts have some front matter called `sections:`, which isn't showing. `{post.title}` is fine, but logging `{post}` does not show `sections` existing at all.
 * Use a different layout when on routes `/work/present/*`. Sapper has `{segment}`, but it only returns the parent route (e.g. `/work`). The goal is to make the `/present/` routes use a different header and no footer.
 * Make slides on "slide" on `/work/present/test-project`
-
 
 ---
 
