@@ -14,7 +14,9 @@ fields:
 - name: sections
   type: blocks
   label: sections
-  template_types: []
+  template_types:
+  - title-slide
+  - media-slide
   config:
     min: 
     max: 
