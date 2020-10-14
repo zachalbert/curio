@@ -6,13 +6,5 @@ sections:
 - template: title-slide
   title: Title slide
   description: That has words
-- template: media-slide
-  image: ''
-  title: ''
-  description: ''
-- template: media-slide
-  image: ''
-  title: ''
-  description: ''
 
 ---
