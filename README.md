@@ -1,12 +1,16 @@
+# Help
+
+* Use a different layout when on routes `/work/present/*`. Sapper has `{segment}`, but it only returns the parent route (e.g. `/work`). The goal is to make the `/present/` routes use a different header and no footer.
+* Make slides on "slide" on `/work/present/test-project`
+
+
+---
+
 # About
 
 This is a svelte + sapper powered portfolio for designers. Create structured case studies, and easily switch to presentation mode for interviews.
 
 This template is based on [this blog template](https://github.com/Charca/sapper-blog-template), with some added fanciness to make building a visual-focused portfolio easy:
-
-* Postcss
-* Tailwind
-
 
 ----
 

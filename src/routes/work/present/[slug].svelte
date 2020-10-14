@@ -10,6 +10,8 @@
     } else {
       this.error(res.status, data.message);
     }
+
+    console.log(data)
   }
 </script>
 
@@ -38,13 +40,29 @@
     min-width: 100px;
     width: 30%;
   }
+
+  .slide {
+    @apply w-screen h-screen bg-gray-900 text-white text-center;
+  }
+
+  .slide img {
+    @apply m-auto my-16;
+  }
+
+  .nav {
+    @apply p-12 text-4xl opacity-75 transition;
+  }
+
+  .nav:hover {
+    @apply opacity-100 transition;
+  }
 </style>
 
 <svelte:head>
   <title>{post.title}</title>
 </svelte:head>
 
-<header out:send="{{key: 'header'}}" in:receive="{{key: 'header'}}">
+<!-- <header out:send="{{key: 'header'}}" in:receive="{{key: 'header'}}">
   <p>{post.printDate} ~ {post.printReadingTime}</p>
   <h1>{post.title}</h1>
   <hr />
@@ -55,4 +73,22 @@
     {@html post.html}
   </article>
   <hr />
-</div>
+</div> -->
+<section id="slide-1" class="slide">
+  <div class="flex items-center">
+    <a href="#" class="nav">👈</a>
+    <img src="http://www.fillmurray.com/800/600"/>
+    <a href="#" class="nav">👉</a>
+  </div>
+  <h1>This is a title</h1>
+  <p>These are pretty good words</p>
+</section>
+<section id="slide-2" class="slide">
+  <div class="flex items-center">
+    <a href="#" class="nav">👈</a>
+    <img src="http://www.fillmurray.com/900/650"/>
+    <a href="#" class="nav">👉</a>
+  </div>
+  <h1>This is a different title</h1>
+  <p>These are other good words</p>
+</section>

@@ -17,7 +17,7 @@
   import {send, receive} from '../../crossfade.js';
   import Bio from '../../components/Bio.svelte'
   export let post
-
+  console.log(post)
 </script>
 
 <style>

@@ -15,7 +15,7 @@
   }
 </style>
 
-<header>
+<header class="hide-in-preso">
   <Logo />
   <Nav {segment} />
 </header>

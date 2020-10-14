@@ -18,7 +18,6 @@
     margin: 0 auto;
     max-width: 1400px;
     background-color: white;
-    padding: 1em 2em;
     box-sizing: border-box;
     width: 100%;
     display: flex;
@@ -39,12 +38,11 @@
 
 <div class="layout">
   <Header {segment}/>
-
   <main>
     <slot></slot>
   </main>
 
-  <footer>
+  <footer class="hide-in-preso">
     <span>
       &copy; {new Date().getFullYear()}.
       Powered by <a href="https://sapper.svelte.dev" target="_blank">Sapper</a>.
