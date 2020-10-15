@@ -4,7 +4,16 @@ module.exports = {
     es6: true,
     node: true,
   },
-  extends: ['plugin:lodash/recommended', 'prettier', 'standard'],
+  parserOptions: {
+    ecmaVersion: 2019,
+    sourceType: 'module',
+  },
+  extends: [
+    'plugin:lodash/recommended',
+    'prettier',
+    'standard',
+    'eslint:recommended',
+  ],
   parser: 'babel-eslint',
   plugins: ['lodash', 'prettier', 'svelte3'],
   overrides: [

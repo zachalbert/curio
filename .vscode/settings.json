@@ -8,8 +8,8 @@
     "source.fixAll.tslint": true,
     "source.fixAll.stylelint": true
   },
-  "eslint.validate": ["javascript", "typescript", "javascriptreact", "graphql"],
-  "prettier.disableLanguages": ["javascript", "javascriptreact"],
+  "eslint.validate": ["javascript", "typescript", "graphql"],
+  "prettier.disableLanguages": ["javascript"],
   "css.validate": false,
   "scss.validate": false
 }
